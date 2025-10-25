@@ -94,3 +94,9 @@
   }
   
 }
+
+.dashboard-container {
+  background-image: url(/src/components/images/signuppagebg.jpg);
+  color: #ffffff; /* text color */
+  min-height: 100vh; /* cover full screen height */
+}

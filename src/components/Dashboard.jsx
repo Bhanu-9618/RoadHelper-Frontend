@@ -2,14 +2,37 @@ import React from 'react'
 import carousalimg1 from './images/carousalimg1.jpg'
 import carousalimg2 from './images/carousalimg2.jpg'
 import carousalimg3 from './images/carousalimg3.jpg'
-import image4 from './images/image4.jpg'
-import Navbar from './Navbar'
+import aboutimg from './images/aboutimg.jpg'
 import Footer from './Footer'
 
 function Dashboard() {
     return (
         <>
-        <Navbar></Navbar>
+            <nav className="navbar navbar-expand-lg bg-black">
+                <div className="container-fluid">
+                    <a className="navbar-brand" style={{ "fontWeight": "bold", "color": "white" }} href="#">RoadHelper</a>
+                    <button
+                        className="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll"
+                        aria-controls="navbarScroll"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div className="collapse navbar-collapse" id="navbarScroll">
+                        <ul
+                            className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                            style={{ "--bs-scroll-height": "100px" }}
+                        >
+                        </ul>
+                        <button className="btn btn-outline-warning fw-bold" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">GET START</button>
+                    </div>
+                </div>
+            </nav>
 
             <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel" data-bs-interval="5000"
             >
@@ -60,7 +83,7 @@ function Dashboard() {
 
             <div className="row g-0  position-relative bg-black" style={{ "paddingTop": "60px", "paddingLeft": "60px", "paddingRight": "60px" }}>
                 <div className="col-md-6 mb-md-0 p-md-4">
-                    <img src={image4} className="w-100" alt="..."></img>
+                    <img src={aboutimg} className="w-100 rounded-5" alt="..."></img>
                 </div>
                 <div className="col-md-6 p-4 ps-md-0">
                     <h5 className="card-title text-warning fw-bold mx-auto">Vehicle Trouble? We’ve Got You Covered!</h5>
@@ -82,13 +105,18 @@ function Dashboard() {
 
             <div className="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div className="modal-dialog">
-                    <div className="modal-content">
+                    <div className="modal-content bg-dark">
                         <div className="modal-header">
-                            <h1 className="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <h1 className="modal-title fs-5" style={{ "color": "white" }} id="exampleModalLabel">
+                                Choose who you are?</h1>
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body">
-                            ...
+                            <center>
+                                <h3 style={{ "color": "white" }}>Sign Up as a</h3><br />
+                                <button className="btn bg-gradient btn-outline-warning" type="button" >Repair Shop</button>
+                                <button className="btn bg-gradient btn-outline-warning" style={{ "width": "115px", "marginLeft": "10px" }} type="button" >User</button>
+                            </center>
                         </div>
                         <div className="modal-footer">
                             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -99,13 +127,18 @@ function Dashboard() {
 
             <div className="modal fade" id="exampleModal2" tabIndex="-1" aria-labelledby="exampleModal2Label" aria-hidden="true">
                 <div className="modal-dialog">
-                    <div className="modal-content">
+                    <div className="modal-content bg-dark">
                         <div className="modal-header">
-                            <h1 className="modal-title fs-5" id="exampleModal2Label">Modal title 2</h1>
+                            <h1 className="modal-title fs-5" style={{ "color": "white" }} id="exampleModal2Label">
+                                Choose who you are?</h1>
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body">
-                            tttttttt
+                            <center>
+                                <h3 style={{ "color": "white" }}>Sign In as a</h3><br />
+                                <button className="btn bg-gradient btn-outline-warning" type="button" >Repair Shop</button>
+                                <button className="btn bg-gradient btn-outline-warning" style={{ "width": "115px", "marginLeft": "10px" }} type="button" >User</button>
+                            </center>
                         </div>
                         <div className="modal-footer">
                             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>

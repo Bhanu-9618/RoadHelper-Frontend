@@ -27,7 +27,7 @@ function Navbar() {
                                 <a className="nav-link active" style={{ "color": "white" }} aria-current="page" href="#">Home</a>
                             </li>
                         </ul>
-                        <button className="btn btn-outline-warning fw-bold" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">GET START</button>
+                        {/* <button className="btn btn-outline-warning fw-bold" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">GET START</button> */}
                     </div>
                 </div>
             </nav>
