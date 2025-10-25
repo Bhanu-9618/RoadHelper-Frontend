@@ -5,7 +5,7 @@ function Navbar() {
         <>
             <nav className="navbar navbar-expand-lg bg-black">
                 <div className="container-fluid">
-                    <a className="navbar-brand" style={{ "fontWeight": "bold", "color": "white" }} href="#">RoadHelper</a>
+                    <a className="navbar-brand" style={{ "fontWeight": "bold" , "color" : "white"}} href="#">RoadHelper</a>
                     <button
                         className="navbar-toggler"
                         type="button"
@@ -30,8 +30,7 @@ function Navbar() {
                                 <a className="nav-link active" style={{ "color": "white" }} href="#">About Us</a>
                             </li>
                         </ul>
-                        <button className="btn btn-outline-light" type="button">SignUp</button>
-                        <button className="btn btn-outline-light" style={{ "marginLeft": "20px" }} type="button">SignIn</button>
+                        <button className="btn btn-outline-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Get Start</button>
                     </div>
                 </div>
             </nav>
