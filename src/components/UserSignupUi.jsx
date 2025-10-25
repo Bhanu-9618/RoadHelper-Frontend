@@ -8,7 +8,7 @@ function UserSignupUi() {
 
             <Navbar></Navbar>
 
-            <form className="row g-3" style={{"paddingLeft" : "60px" , "paddingRight" : "60px" , "marginTop" : "60px"}}>
+            <form className="row g-3" style={{ "paddingLeft": "60px", "paddingRight": "60px", "marginTop": "60px" }}>
                 <div className="col-md-6">
                     <label for="inputEmail4" className="form-label text-warning">Email</label>
                     <input type="email" className="form-control" id="inputEmail4"></input>
@@ -32,7 +32,7 @@ function UserSignupUi() {
                         <button type="submit" className="btn btn-outline-warning">Sign Up</button>
                     </div>
                 </center>
-            </form>            
+            </form>
 
         </div>
     )

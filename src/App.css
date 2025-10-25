@@ -97,6 +97,12 @@
 
 .dashboard-container {
   background-image: url(/src/components/images/signuppagebg.jpg);
-  color: #ffffff; /* text color */
-  min-height: 100vh; /* cover full screen height */
+  color: #ffffff; 
+  min-height: 100vh; 
+}
+
+.dashboard-container2 {
+  background-image: url(/src/components/images/signuppagebg.jpg);
+  color: #ffffff; 
+  min-height: 130vh; 
 }

@@ -10,7 +10,7 @@ function Dashboard() {
         <>
             <nav className="navbar navbar-expand-lg bg-black">
                 <div className="container-fluid">
-                    <a className="navbar-brand" style={{ "fontWeight": "bold", "color": "white" }} href="#">RoadHelper</a>
+                    <a className="navbar-brand text-warning" style={{ "fontWeight": "bold"}} href="#">RoadHelper</a>
                     <button
                         className="navbar-toggler"
                         type="button"
