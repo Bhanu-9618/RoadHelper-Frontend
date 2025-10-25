@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
     return (
 
-        <footer className="bg-black text-light pt-5 pb-4" style={{"paddingLeft" : "100px" , "paddingRight" : "100px"}}>
+        <footer className="bg-dark text-light pt-5 pb-4" >
             <div className="container">
                 <div className="row text-center text-md-start">
 
@@ -17,9 +17,8 @@ function Footer() {
                     <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                         <h5 className="text-uppercase mb-4 fw-bold text-warning">Quick Links</h5>
                         <ul className="list-unstyled">
-                            <li><a href="#" className="text-light text-decoration-none d-block mb-2">About Us</a></li>
-                            <li><a href="#" className="text-light text-decoration-none d-block mb-2">SignUp</a></li>
-                            <li><a href="#" className="text-light text-decoration-none d-block mb-2">SignIn</a></li>
+                            <li><a data-bs-toggle="modal" data-bs-target="#exampleModal" className="text-light text-decoration-none d-block mb-2">SignUp</a></li>
+                            <li><a data-bs-toggle="modal" data-bs-target="#exampleModal2" className="text-light text-decoration-none d-block mb-2">SignIn</a></li>
                         </ul>
                     </div>
 
