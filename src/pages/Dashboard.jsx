@@ -1,16 +1,16 @@
 import React from 'react'
-import carousalimg1 from './images/carousalimg1.jpg'
-import carousalimg2 from './images/carousalimg2.jpg'
-import carousalimg3 from './images/carousalimg3.jpg'
-import aboutimg from './images/aboutimg.jpg'
-import Footer from './Footer'
+import carousalimg1 from '../assets/images/carousalimg1.jpg'
+import carousalimg2 from '../assets/images/carousalimg2.jpg'
+import carousalimg3 from '../assets/images/carousalimg3.jpg'
+import aboutimg from '../assets/images/aboutimg.jpg'
+import Footer from '../components/Footer'
 
 function Dashboard() {
     return (
         <>
             <nav className="navbar navbar-expand-lg bg-black">
                 <div className="container-fluid">
-                    <a className="navbar-brand text-warning" style={{ "fontWeight": "bold"}} href="#">RoadHelper</a>
+                    <a className="navbar-brand text-warning" style={{ "fontWeight": "bold" }} href="#">RoadHelper</a>
                     <button
                         className="navbar-toggler"
                         type="button"

@@ -1,6 +1,5 @@
 import React from 'react'
-import Navbar from './Navbar'
-import signuppagebg from './images/signuppagebg.jpg'
+import Navbar from '../components/Navbar'
 
 function UserSignupUi() {
     return (

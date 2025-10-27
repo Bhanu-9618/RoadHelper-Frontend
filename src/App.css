@@ -96,13 +96,13 @@
 }
 
 .dashboard-container {
-  background-image: url(/src/components/images/signuppagebg.jpg);
+  background-image: url(/src/assets/images/signuppagebg.jpg);
   color: #ffffff; 
   min-height: 100vh; 
 }
 
 .dashboard-container2 {
-  background-image: url(/src/components/images/signuppagebg.jpg);
+  background-image: url(/src/assets/images/signuppagebg.jpg);
   color: #ffffff; 
   min-height: 130vh; 
 }
